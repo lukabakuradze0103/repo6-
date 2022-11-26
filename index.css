@@ -1,0 +1,47 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 200px;
+  background-color: green;
+  animation-name: time-change;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+@keyframes time-change {
+  10% {
+    transform: scale(2);
+    background-color: green;
+    border-radius: 100%;
+  }
+  20% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+  35% {
+    transform: scale(2);
+    background-color: orange;
+    border-radius: 0%;
+  }
+  50% {
+    transform: scale(1.5);
+    background-color: red;
+  }
+  70% {
+    transform: scale(2);
+    background-color: green;
+  }
+  80% {
+    transform: scale(1.5);
+    background-color: yellow;
+    border-radius: 100%;
+  }
+  90% {
+    transform: scale(2);
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: red;
+  }
+}
